@@ -13,6 +13,7 @@ public class Bamsongi : MonoBehaviour
     {
         GetComponent<Rigidbody>().isKinematic = true; //과녁 접촉 시 오브젝트 정지
         GetComponent<ParticleSystem>().Play(); //파티클 생성
+        Destroy(gameObject, 0.8f);
     }
 
     void Start()
