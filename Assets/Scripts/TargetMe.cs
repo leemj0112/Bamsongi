@@ -10,7 +10,7 @@ public class TargetMe : MonoBehaviour
     {
         if (collision.gameObject.tag == "Bamsongi")
         {
-            TargetCount--;
+            TargetCount = 0;
         }
     }
 
